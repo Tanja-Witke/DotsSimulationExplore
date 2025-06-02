@@ -175,6 +175,7 @@ GameObject:
   - component: {fileID: 396056074}
   - component: {fileID: 396056073}
   - component: {fileID: 396056072}
+  - component: {fileID: 396056075}
   m_Layer: 0
   m_Name: 2D Camera
   m_TagString: MainCamera
@@ -284,7 +285,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 260
+  orthographic size: 26
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -300,6 +301,21 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &396056075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396056070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06b3a164b78ffbd44b0074f94320a5c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetZoom: 260
+  zoomDuration: 20
+  holdBeforeZoom: 20
 --- !u!1 &413066293
 GameObject:
   m_ObjectHideFlags: 0

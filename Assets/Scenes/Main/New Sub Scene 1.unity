@@ -673,9 +673,9 @@ MonoBehaviour:
   FireRate: 1
   DotPrefab: {fileID: 6252143664600826119, guid: 3cf29dba9d933db4f83f17d07b35737e, type: 3}
   GhostPrefab: {fileID: 932330553095870585, guid: 86d6bdebc327de641bec544d29a80cdd, type: 3}
-  LevelCount: 50
-  ShootLevelPercent: 10
-  StartSpeed: 10
+  LevelCount: 500
+  ShootLevelPercent: 5
+  StartSpeed: 15
   MinSpeed: 5
 --- !u!1001 &1575676476
 PrefabInstance:
